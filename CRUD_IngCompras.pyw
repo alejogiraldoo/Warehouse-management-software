@@ -2,8 +2,6 @@
 import sqlite3
 from tkinter import messagebox
 
-from numpy import pad
-
 # _____________________________CONEXION BASE DE DATOS_________________________________
 Conexion = sqlite3.connect("baseDtos")
 Cursor = Conexion.cursor()
